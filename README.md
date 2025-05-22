@@ -2,25 +2,27 @@
 A deep learning–based system designed to detect cyberbullying on social media by analyzing both text and image data. This project combines Natural Language Processing (NLP) and Computer Vision techniques to build an end-to-end detection pipeline, supported by a real-time Flask web application.
 
 🔍 Project Highlights
-Multimodal Input Handling: Utilizes both textual and visual content to identify abusive behavior online.
 
-Text Classification: Implemented an LSTM model to classify comments as abusive or non-abusive, achieving 90.7% training accuracy.
+-Multimodal Input Handling: Utilizes both textual and visual content to identify abusive behavior online.
 
-Image Classification: Leveraged a VGG16 CNN to detect unsafe imagery, trained on a balanced dataset of labeled images.
+-Text Classification: Implemented an LSTM model to classify comments as abusive or non-abusive, achieving 90.7% training accuracy.
 
-Data Engineering: Built data pipelines for cleaning, transforming, and batching data using Pandas, NumPy, and Keras utilities.
+-Image Classification: Leveraged a VGG16 CNN to detect unsafe imagery, trained on a balanced dataset of labeled images.
 
-EDA & Visualization: Performed exploratory data analysis and visualized model performance using Matplotlib and Seaborn.
+-Data Engineering: Built data pipelines for cleaning, transforming, and batching data using Pandas, NumPy, and Keras utilities.
 
-Deployment: Developed a Flask web application for real-time predictions based on user-provided messages and images.
+-EDA & Visualization: Performed exploratory data analysis and visualized model performance using Matplotlib and Seaborn.
 
-Scalable Design: Codebase structured for integration with SQL databases, cloud storage (AWS/GCP), and workflow tools like Airflow (future scope).
+-Deployment: Developed a Flask web application for real-time predictions based on user-provided messages and images.
+
+-Scalable Design: Codebase structured for integration with SQL databases, cloud storage (AWS/GCP), and workflow tools like Airflow (future scope).
 
 🛠️ Tech Stack
-Languages & Frameworks: Python, Flask, HTML/CSS
 
-Libraries: TensorFlow, Keras, Pandas, NumPy, Matplotlib, Seaborn
+-Languages & Frameworks: Python, Flask, HTML/CSS
 
-Models Used: LSTM (text), VGG16 CNN (images)
+-Libraries: TensorFlow, Keras, Pandas, NumPy, Matplotlib, Seaborn
 
-Tools: Jupyter, Pickle, ImageDataGenerator, LabelEncoder
+-Models Used: LSTM (text), VGG16 CNN (images)
+
+-Tools: Jupyter, Pickle, ImageDataGenerator, LabelEncoder
